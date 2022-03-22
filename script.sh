@@ -7,4 +7,5 @@ if [[ $a != 200 || "$b" != "$c" ]]
 then
   echo 4
 else
+  exit 0
 fi
