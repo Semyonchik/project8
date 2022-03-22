@@ -7,5 +7,5 @@ if [[ $a != 200 || "$b" != "$c" ]]
 then
   exit 250
 else
-  exit 250
+  exit 0
 fi
