@@ -7,5 +7,5 @@ if [[ $a != 200 || "$b" != "$c" ]]
 then
   exit 0
 else
-  echo 4
+  echo "Error found"
 fi
