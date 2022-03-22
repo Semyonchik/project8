@@ -5,7 +5,7 @@ wget http://192.168.88.74:9889 -P /tmp/test/1/
 c=sudo md5sum /tmp/test/1/index.html | cut -d ' ' -f 1
 if [[ $a != 200 || "$b" != "$c" ]]
 then
-  echo 2
+  exit 4
 else
-  echo 1
+  exit 5
 fi
